@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+ 
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* header */
+header{
+    background-color: #342d2d;
+    margin: 0;
+    height: 50px;
+    padding: 0 0;
+    display: flex;
+    width: 100%;
+}
+
+#header-1{
+    width: 50%;
+    color: gray;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+#header-2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    
+}
+
+#header-2 a{
+    color: gray;
+    text-decoration: none;
+    margin: 15px 10px;
+}
+#header-2 div{
+    padding-left: 20px;
+    background:rgb(0, 200, 200);
+    height: 50px;
+    padding: 10px 20px;
+    margin-left: 30px;
+   
+}
+
+#header-2 div span{
+    margin: 0px 10px;
+    color: white;
+}
+
+/* header end */
+
+/* Menu */
+menu{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    height: 80PX;
+    width: 100%;
+}
+#menu-1{
+    width: 50%;
+    padding-left: 7%;
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+     
+}
+#menu-2{
+    width: 55%;
+    padding-top: 30px;
+    display: flex;
+}
+
+#menu-2 a{
+    text-decoration: none;
+    color:black;
+    font-weight: 600;
+    margin:0 20px;
+    margin-top: 2px;
+    font-size: 13px;
+}
+
+  #menu-2 .search-container {
+   margin-left: 10%; 
+  }
+  #menu-2  input[type=text] {
+    padding: 6px;
+    font-size: 13px;
+    border: none;
+    width: 50%;
+  }
+  #menu-2  .search-container button {
+    padding: 0px 10px;
+    color: gray;
+    margin-right: 16px;
+    background: #ffffff;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+  }
+  #menu-2  .search-container button:hover {
+    background: #dddddd;
+  }
+  
+  /* end menu */
+
+
+  /* intro */
+
+  #intro img{
+    width: 100%;
+}
+
+  #intro-txt-1{
+    z-index: 2;
+    margin-top: -15%;
+    text-align: center;
+    color: white;
+    font-size: 48px;  
+  }
+
+  #intro-txt-2{
+    z-index: 2;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 28px;  
+  }
+
+  /* end intro */
+
+  /*  Cards  */
+
+  #cards{
+    margin: 0 20%;
+    margin-top: 200px;
+    display: flex;
+  }
+
+  #cards .card{
+    margin: 10px;
+    display: block;
+    color: rgb(87, 81, 83);
+    transition: 0.5s;
+  }
+
+  #cards .card:hover{
+    box-shadow: 5px 5px 10px rgb(123, 121, 121);
+    transform: scale(1.2);
+    z-index: 0;
+    padding: 10px;
+    margin: 0 30px;
+    border-radius: 10px;
+  }
+
+  #cards .card .card-title{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #cards .card .card-data{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+  }
+
+  #cards .card .card-body{
+    font-size: 13x;
+    margin-top: 9px;
+  }
+
+  #cards .card button{
+    font-size: 16px;
+    border-radius: 0px;
+    border: 1px solid gray;
+    background-color: #ffffff;
+    color: #454647;
+    padding: 10px 20px;
+    margin-top: 15px;
+    font-weight: 550;
+    transition: 0.3s;
+  }
+  #cards .card button:hover{
+    background-color: rgb(0, 200, 200);
+    color: #ffffff;
+    border: none;
+}
+
+/*  END CARDS */
+
+/* location */
+
+#location{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background: rgb(248, 248, 248);
+}
+
+#location img{
+    width: 68%;
+}
+
+#location .location-adress{
+    margin: 30px;
+
+}
+
+.location-adress .ctiy{
+    font-size: 18px;
+    font-weight: 500;
+    color: #575153;
+
+}
+
+.location-adress .data{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #727272;
+}
+
+.location-adress .body{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #8e8c8c;
+}
+
+.location-adress .adress{
+    margin-top: 30px;
+    color: #8e8c8c;
+}
+
+.location-adress .tel{
+    margin-top: 15px;
+    color: #8e8c8c;
+}
+
+.location-adress .site{
+    margin-top: 15px;
+    color: #8e8c8c;
+}
+
+.location-adress .email{
+    margin-top: 15px;
+    color: #8e8c8c;
+}
+
+.location-adress .time{
+    margin-top: 15px;
+    color: #8e8c8c;
+}
+
+.location-adress .sotset{
+    margin-top: 40px;
+}
+
+.location-adress .sotset i{
+    margin-right: 10px;
+    color: #727272;
+    
+    font-size: 30px;
+}
+
+/*  End Location */
+
+
+/* Footer */
+
+footer{
+    background: rgb(248, 248, 248);
+    padding-left:20%;
+    padding-right: 20%;
+}
+
+footer .menus{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.menus .menu{
+    width: 20%;
+}
+
+.menus .menu .title{
+    margin-bottom: 30px;
+    color: #575153;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+.menus .menu .body{
+    color: #727272;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.baners{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 40PX;
+}
+.baners .txt-1{
+    height: 150px;
+    background: #333333;
+    color: white;
+    text-align: center;
+    width: 50%;
+    font-size: 26px;
+    padding-top: 35px;
+}
+
+.baners .txt-2{
+    height: 150px;
+    background-color: #00c8c8;
+    margin-left:30px ;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 45px;
+}
+.baners .txt-2 i{
+    margin: 10px;
+}
+
+.cpr{
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    font-size: 15px;
+    height: 40px;
+    padding: 10px;
+}
+.crp-1,.crp-2{
+    width: 50%;
+    text-align: center;
+    color: #999999;
+}
+.crp-2 a{
+    color: blue;
+}
